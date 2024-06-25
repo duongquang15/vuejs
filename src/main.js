@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { Input,InputPassword,Select,Avatar,Table,Card,Menu,List, Drawer, Button, message } from 'ant-design-vue';
+import { Input,Select,Avatar,Table,Card,Menu,List, Drawer, Button, message } from 'ant-design-vue';
 import { createPinia } from 'pinia'
 import router from './router/index.js'
 import axios from 'axios';
@@ -20,7 +20,6 @@ app.use(router);
 app.use(createPinia);
 app.use(Card);
 app.use(Input);
-app.use(InputPassword);
 app.use(Select);
 app.use(Table);
 app.use(Avatar);
